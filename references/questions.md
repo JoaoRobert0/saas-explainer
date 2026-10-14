@@ -11,10 +11,19 @@ the video's audience.
 
 ## Round 1 — the essentials (always ask)
 
-1. **What product is this, and where can I see it?**
-   Repo path, live URL, screenshots, a demo account, or a description. If a
-   repo is available, read it: the screens and their exact labels come from
-   there.
+1. **Which repository holds the product?** Always ask, even when the current
+   folder is a repo — never assume it is the right one.
+   - Accept a local path or a GitHub/GitLab URL. For a URL, ask before
+     cloning and clone it into a temporary folder outside the explainer
+     project (read-only; never commit to it).
+   - If the product is split (frontend, backend, mobile app, marketing site),
+     ask which repos to read and which one has the screens to show. The
+     screens, labels, colors and logo come from the frontend.
+   - If there is no repo, ask for the live URL, a demo account, screenshots,
+     or a description, and tell the user the recreated screens will be less
+     exact.
+   Once you have it, confirm in one line what you will read (e.g. "I'll read
+   `web/src/pages` and `web/src/index.css` in `~/code/acme-app`").
 2. **Who is watching?**
    Role and industry, in their words (e.g. "owners of small service
    companies", "finance managers at mid-size agencies"). This sets the

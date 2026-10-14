@@ -29,10 +29,14 @@ the video's audience.
 
 ## 1. Discovery ⛔
 
-Ask the questions in [references/questions.md](references/questions.md), in
-rounds of at most 3–4, skipping anything you can find out yourself. Then study
-the product: read its repo (pages/screens, components, styles, labels),
-or its live site/screenshots. Collect the brand colors, font and logo.
+First ask **which repository (or repositories) holds the product** — a local
+path or a Git URL — even if the current folder looks like one; confirm what
+you will read before reading it. Then ask the rest of the questions in
+[references/questions.md](references/questions.md), in rounds of at most 3–4,
+skipping anything you can find out yourself. Study the product from that repo
+(pages/screens, components, styles, labels), or from its live
+site/screenshots if there is no repo. Collect the brand colors, font and
+logo.
 
 ## 2. Script ⛔
 
@@ -44,7 +48,8 @@ the table, not code.
 
 ## 3. Scaffold
 
-Create the project **outside the product's repo** (a sibling folder), named
+Create the project **outside the product's repo** (never inside it, never
+committed to it; a sibling folder), named
 after the product, e.g. `<product>-explainer`:
 
 ```bash

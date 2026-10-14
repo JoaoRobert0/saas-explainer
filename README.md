@@ -18,13 +18,14 @@ npx skills add remotion-dev/skills -g -a claude-code -y
 
 Update later with `git -C ~/.claude/skills/saas-explainer pull`.
 
-Needs Node 18+ and ffmpeg. Restart Claude Code, then ask, from the folder of
-the product you want to show:
+Needs Node 18+ and ffmpeg. Restart Claude Code, then ask:
 
-> Make an explainer video for this product.
+> Make an explainer video for my product.
 
-Claude will ask about the audience, format, features and call to action, show
-you a script table, and only build after you approve it.
+Claude first asks which repository holds the product (a local path or a Git
+URL; the frontend matters most, since the screens come from there), then
+about the audience, format, features and call to action. It shows you a
+script table and only builds after you approve it.
 
 ## What's inside
 
